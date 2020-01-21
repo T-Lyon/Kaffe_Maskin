@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.001486101">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0004686">
+        </testcase>
+        <testcase name="Given that the user has selected black coffee" classname="get-coffee;" time="0.0004419">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0010034">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.000493001">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0003162">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0004443">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of black coffee." classname="get-coffee;" time="0.000402">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000227499">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001494">
+        </testcase>
+        <testcase name="Given that the user has selected black coffee" classname="get-coffee;" time="0.0001602">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0002381">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname="get-coffee;" time="0.000309101">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.000132801">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0001232">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of black coffee." classname="get-coffee;" time="0.0001582">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000168">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000227599">
+        </testcase>
+        <testcase name="Given that the user has selected black coffee" classname="get-coffee;" time="0.000780199">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0002102">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.0001927">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname="get-coffee;" time="0.0001975">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000226001">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of black coffee." classname="get-coffee;" time="0.000328001">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000167901">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0002188">
+        </testcase>
+        <testcase name="Given that the user has selected black coffee" classname="get-coffee;" time="0.0003294">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0003164">
+        </testcase>
+        <testcase name="When the user inserts a 1 kr coin" classname="get-coffee;" time="0.0002944">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname="get-coffee;" time="0.000183901">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000147999">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of black coffee." classname="get-coffee;" time="0.0002059">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0002258">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001109">
+        </testcase>
+        <testcase name="Given that the user has selected black coffee" classname="get-coffee;" time="0.0003006">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.000232799">
+        </testcase>
+        <testcase name="When the user inserts a 1 kr coin" classname="get-coffee;" time="0.0002667">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.0004005">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000268201">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of black coffee." classname="get-coffee;" time="0.0002046">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0002034">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000569801">
+        </testcase>
+        <testcase name="Given that the user has selected black coffee" classname="get-coffee;" time="0.000102599">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.000124501">
+        </testcase>
+        <testcase name="When the user inserts 10 kr by card" classname="get-coffee;" time="0.0004082">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0000925">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of black coffee." classname="get-coffee;" time="0.0000767">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001235">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001765">
+        </testcase>
+        <testcase name="Given that the user has selected black coffee" classname="get-coffee;" time="0.0002269">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0001415">
+        </testcase>
+        <testcase name="When the user inserts 0 kr by card" classname="get-coffee;" time="0.000283399">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0002549">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of black coffee." classname="get-coffee;" time="0.0001984">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001348">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000123399">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.000427099">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.000454701">
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;" time="0.0005475">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.0001534">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.0000802">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0000701">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0000701">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of coffee with milk." classname="get-coffee;" time="0.000145101">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000139299">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0002216">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.000073">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0001638">
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;" time="0.0001686">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname="get-coffee;" time="0.0001979">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.000323401">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.000163501">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000121399">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of coffee with milk." classname="get-coffee;" time="0.000273401">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0000875">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000113899">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.0002828">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.000218201">
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;" time="0.0002567">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.0002159">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname="get-coffee;" time="0.000121801">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname="get-coffee;" time="0.000195001">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0003405">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of coffee with milk." classname="get-coffee;" time="0.0001902">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001221">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000185">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.0001374">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0002311">
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;" time="0.0002371">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname="get-coffee;" time="0.000077599">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.0002864">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.00018">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0004185">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of coffee with milk." classname="get-coffee;" time="0.000827701">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000302501">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.000178">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0005064">
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;" time="0.0001483">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.000076499">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0000958">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.000200199">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000224299">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of coffee with milk." classname="get-coffee;" time="0.000114999">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001513">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0002368">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.0002178">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;" time="0.0001304">
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;" time="0.000090299">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname="get-coffee;" time="0.0024304">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0004896">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname="get-coffee;" time="0.0001037">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0001786">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of coffee with milk." classname="get-coffee;" time="0.0001779">
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001277">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0002063">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.0000781">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffe" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user inserts 15 kr by card" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user receives 1 cup of coffee with milk" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001963">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001201">
+        </testcase>
+        <testcase name="Given that the user has selected coffee with milk" classname="get-coffee;" time="0.0001627">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffe" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has milk" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user inserts 0 kr by card" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user receives 0 cup of coffee with milk" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0003894">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000199299">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000221999">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.000214301">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.000206001">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname="get-coffee;" time="0.0002004">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0001382">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0001209">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000215099">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000089">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000083199">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000092101">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.000092401">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname="get-coffee;" time="0.0002838">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.0001041">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.000160501">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.0002609">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0001642">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000147299">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001706">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.001287299">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.0011194">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.0001439">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.0000757">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.000065099">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.000131199">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0000678">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000119301">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001995">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000160201">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.0002285">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.0002813">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname="get-coffee;" time="0.000281501">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.0002142">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.000273099">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000158799">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0002176">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000495301">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000106">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.0000795">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname="get-coffee;" time="0.0001028">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0001068">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0001536">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="get-coffee;" time="0.000085901">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0002877">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.001926101">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000269901">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000204599">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.000125699">
+        </testcase>
+        <testcase name="When the user inserts a 0 kr coin" classname="get-coffee;" time="0.0001342">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0001208">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.000191201">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.0001834">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.008027701">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000131399">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001852">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.00015">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.000153999">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname="get-coffee;" time="0.0003055">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname="get-coffee;" time="0.0002021">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.000327">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="get-coffee;" time="0.000261401">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000193601">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="10" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000144101">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000140201">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000191899">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.0001971">
+        </testcase>
+        <testcase name="When the user inserts a 1 kr coin" classname="get-coffee;" time="0.0001078">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname="get-coffee;" time="0.0001231">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname="get-coffee;" time="0.0001513">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname="get-coffee;" time="0.0002313">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000335701">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="7" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000135501">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001589">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000112001">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.000136801">
+        </testcase>
+        <testcase name="When the user inserts 20 kr by card" classname="get-coffee;" time="0.0001191">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.0001653">
+        </testcase>
+        <testcase name="Then the user receives 1 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="7" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000132799">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000128601">
+        </testcase>
+        <testcase name="Given that the user has selected espresso" classname="get-coffee;" time="0.000179099">
+        </testcase>
+        <testcase name="And that the machine has a espresso capsule" classname="get-coffee;" time="0.0001419">
+        </testcase>
+        <testcase name="When the user inserts 0 kr by card" classname="get-coffee;" time="0.000513999">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname="get-coffee;" time="0.000124699">
+        </testcase>
+        <testcase name="Then the user receives 0 cup of espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="5" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001577">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000309099">
+        </testcase>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001266">
+        </testcase>
+        <testcase name="And that water is not available" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user should receive an error message" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="6" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001674">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000231101">
+        </testcase>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000202201">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0002051">
+        </testcase>
+        <testcase name="And that the machine does not have enough ground coffee" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user should receive an error message" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="8" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.000141399">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000271999">
+        </testcase>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001206">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0001798">
+        </testcase>
+        <testcase name="And the user has selected coffee with milk" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine does not have enough milk" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user should receive an error message" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="get-coffee;" tests="7" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0001627">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.000182701">
+        </testcase>
+        <testcase name="Given that the machine is plugged in" classname="get-coffee;" time="0.0003813">
+        </testcase>
+        <testcase name="And that water is available" classname="get-coffee;" time="0.0003075">
+        </testcase>
+        <testcase name="And the user has selected espresso" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine does not have an espresso capsule" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user should receive an error message" classname="get-coffee;">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>

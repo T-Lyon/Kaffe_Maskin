@@ -1,0 +1,3827 @@
+[
+  {
+    "description": "  As a coffee buyer\n  I want a machine where\n  I can select a type of coffee and\n  I can put money in\n  and get a cup of coffee back",
+    "elements": [
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 1486101
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 468600
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected black coffee",
+            "result": {
+              "status": "passed",
+              "duration": 441900
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 1003400
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 493001
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 316200
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 444300
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of black coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 402000
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 3071748799,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 227499
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 149400
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected black coffee",
+            "result": {
+              "status": "passed",
+              "duration": 160200
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 238100
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 309101
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 132801
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 123200
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of black coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 158200
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 2327767100,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 168000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 227599
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected black coffee",
+            "result": {
+              "status": "passed",
+              "duration": 780199
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 210200
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 192700
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 197500
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 226001
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of black coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 328001
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1609140200,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 167901
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 218800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected black coffee",
+            "result": {
+              "status": "passed",
+              "duration": 329400
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 316400
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 294400
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 183901
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 147999
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of black coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 205900
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1725642800,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 225800
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 110900
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected black coffee",
+            "result": {
+              "status": "passed",
+              "duration": 300600
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 232799
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 266700
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 400500
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 268201
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of black coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 204600
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1359179200,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 203400
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 569801
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected black coffee",
+            "result": {
+              "status": "passed",
+              "duration": 102599
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 124501
+            },
+            "line": 30,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts 10 kr by card",
+            "result": {
+              "status": "passed",
+              "duration": 408200
+            },
+            "line": 31,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 92500
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of black coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 76700
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1394137401,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 123500
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 176500
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected black coffee",
+            "result": {
+              "status": "passed",
+              "duration": 226900
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 141500
+            },
+            "line": 30,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts 0 kr by card",
+            "result": {
+              "status": "passed",
+              "duration": 283399
+            },
+            "line": 31,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 254900
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of black coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 198400
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1394652300,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 134800
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 123399
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 427099
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 454701
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "passed",
+              "duration": 547500
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 153400
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 80200
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 70100
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 70100
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of coffee with milk.",
+            "result": {
+              "status": "passed",
+              "duration": 145101
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1425686999,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 139299
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 221600
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 73000
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 163800
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "passed",
+              "duration": 168600
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 197900
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 323401
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 163501
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 121399
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of coffee with milk.",
+            "result": {
+              "status": "passed",
+              "duration": 273401
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1397686600,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 87500
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 113899
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 282800
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 218201
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "passed",
+              "duration": 256700
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 215900
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 121801
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 195001
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 340500
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of coffee with milk.",
+            "result": {
+              "status": "passed",
+              "duration": 190200
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1350769700,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 122100
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 185000
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 137400
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 231100
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "passed",
+              "duration": 237100
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 77599
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 286400
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 180000
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 418500
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of coffee with milk.",
+            "result": {
+              "status": "passed",
+              "duration": 827701
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1578719000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 100000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 302501
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 178000
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 506400
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "passed",
+              "duration": 148300
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 76499
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 95800
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 200199
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 224299
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of coffee with milk.",
+            "result": {
+              "status": "passed",
+              "duration": 114999
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1591663699,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 151300
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 236800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 217800
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 130400
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "passed",
+              "duration": 90299
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 2430400
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 489600
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 103700
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 178600
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of coffee with milk.",
+            "result": {
+              "status": "passed",
+              "duration": 177900
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1547379700,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 127700
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 206300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 78100
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffe",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts 15 kr by card",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of coffee with milk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1375666901,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 196300
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 120100
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected coffee with milk",
+            "result": {
+              "status": "passed",
+              "duration": 162700
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffe",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has milk",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:93"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts 0 kr by card",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of coffee with milk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1403285800,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 389400
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 199299
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 221999
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 214301
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 206001
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 200400
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 138200
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 120900
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 215099
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1421305800,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 89000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 83199
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 92101
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 92401
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 283800
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 104100
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 160501
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 260900
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 164200
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1353741300,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 86,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 147299
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 170600
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 1287299
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 1119400
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 143900
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 75700
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 65099
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 131199
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 67800
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1645735600,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 119301
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 199500
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 160201
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 228500
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 281300
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 281501
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 214200
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 273099
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 158799
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1413924400,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 217600
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 495301
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 106000
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 79500
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 102800
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 106800
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 153600
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 85901
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 287700
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1641392900,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 89,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 1926101
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 269901
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 204599
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 125699
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 134200
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 120800
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 191201
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 183400
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 8027701
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1592815200,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 131399
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 185200
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 150000
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 153999
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 305500
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 202100
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 327000
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 261401
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 193601
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1501645200,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 91,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 144101
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 140201
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 191899
+            },
+            "line": 73,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 197100
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 107800
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 123100
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 151300
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 231300
+            },
+            "line": 78,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 335701
+            },
+            "line": 79,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1551065400,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 102,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 135501
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 158900
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 112001
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 136801
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts 20 kr by card",
+            "result": {
+              "status": "passed",
+              "duration": 119100
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 165300
+            },
+            "line": 97,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 1 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 98
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1624163599,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 103,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 132799
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 128601
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected espresso",
+            "result": {
+              "status": "passed",
+              "duration": 179099
+            },
+            "line": 94,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has a espresso capsule",
+            "result": {
+              "status": "passed",
+              "duration": 141900
+            },
+            "line": 95,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:106"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts 0 kr by card",
+            "result": {
+              "status": "passed",
+              "duration": 513999
+            },
+            "line": 96,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 124699
+            },
+            "line": 97,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receives 0 cup of espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 98
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1665456299,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 106,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 157700
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 309099
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 126600
+            },
+            "line": 107,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is not available",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 108
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user should receive an error message",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 109
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1472220401,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 112,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 167400
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 231101
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 202201
+            },
+            "line": 113,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 205100
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine does not have enough ground coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 115
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user should receive an error message",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 116
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1501013500,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 119,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 141399
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 271999
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 120600
+            },
+            "line": 120,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 179800
+            },
+            "line": 121,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user has selected coffee with milk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 122
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 123,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine does not have enough milk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 124
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user should receive an error message",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 125
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1455235900,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "get-coffee;",
+        "keyword": "Scenario",
+        "line": 128,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 162700
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 182701
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 381300
+            },
+            "line": 129,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 307500
+            },
+            "line": 130,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\kaffe_maskin\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user has selected espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 131
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine does not have an espresso capsule",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 132
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user should receive an error message",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 133
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1357173000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 10.0.18362 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\chrome.js:761:15)\n    at createDriver (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-webdriver\\index.js:642:16)\n    at new module.exports (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:20:8)\n    at getDriverInstance (C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-coffee",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Get Coffee",
+    "tags": [],
+    "uri": "C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/kaffe_maskin/features/coffee-machine.feature"
+  }
+]

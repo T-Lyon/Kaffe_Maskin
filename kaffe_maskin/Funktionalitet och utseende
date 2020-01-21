@@ -1,0 +1,31 @@
+Funktionalitet:
+-Går att koppla till eluttag
+-Maskinen är kopplad till vatten
+-Har en mjölkbehållare som går att fylla på
+-Det finns en behållare där man fyller på kaffet
+-Val av dryck
+-Ta emot betalning med mynt
+-Ifall användaren betalar för mycket med mynt så kommer maskinen behålla de pengar som blir över
+-Ta emot betalning med kort
+-Brygga kaffe (svart)
+-Brygga kaffe (med mjölk)
+-Brygga espresso
+-Hälla dryck i mugg
+-Maskinen kommer inte erbjuda någon mugg, detta är användarens ansvar
+-Om det saknas kaffe så ska man få en varning om detta
+-Om det saknas mjölk så ska man få en varning om detta
+-Om man inte betalat tillräckligt så ska man inte få något kaffe
+-Om man har betalat tillräckligt så ska man få sitt kaffe
+
+Utseende:
+-Maskinen har ett myntinkast
+-Maskinen har en kortläsare
+-Maskinen har ett utrymme där man placerar sin kopp/mugg
+-Maskinen har en behållare för mjölk
+-Maskinen har en behållare för malet kaffe 
+-Maskinen har en lucka för espresso-kapslar
+-Maskinen har en startknapp
+-Maskinen har en knapp för svart kaffe
+-Maskinen har en knapp för cappuccino
+-Maskinen har en knapp för espresso
+-Maskinen har en lampa som signalerar när maskinen arbetar

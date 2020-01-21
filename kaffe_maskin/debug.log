@@ -1,0 +1,7 @@
+[0110/095250.606:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0110/111143.805:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0110/152930.064:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0110/161452.035:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0110/162059.786:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0110/162059.792:ERROR:exception_snapshot_win.cc(98)] thread ID 46804 not found in process
+[0115/101958.674:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0

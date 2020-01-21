@@ -1,0 +1,124 @@
+Class:
+ CoffeMachine
+
+ Properties:
+    pluggedIn
+        Type:Boolean
+        Initial value:false
+
+    connectedToWater
+        Type:Boolean
+        Initial value:false
+
+    startMachine
+        Type:Boolean
+        Initial value:false
+    
+    selectedBlackCoffee
+        Type:Boolean
+        Initial value:false
+
+    selectedCoffeeWithMilk
+        Type:Boolean
+        Initial value:false
+
+    selectedEspresso
+        Type:Boolean
+        Initial value:false
+
+    pouredCoffee
+        Type:Boolean
+        Initial value:false
+
+    hasCapsule
+        Type:Boolean
+        Initial value:false
+
+    insertedMoney
+        Type:number (SEK)
+        Initial value:0
+
+    amountOfCoffee
+        Type:number (gram)
+        Initial value:0
+
+    amountOfMilk
+        Type:number (gram)
+        Initial value:0
+
+    coffeePerCup
+        Type:number (gram)
+        Initial value:13
+
+    milkPerCup
+        Type:number (gram)
+        Initial value:10
+
+    priceForBlackCoffee
+        Type:number (SEK)
+        Initial value:10
+
+    priceForCoffeeWithMilk
+        Type:number (SEK)
+        Initial value:15
+
+    priceForEspresso
+        Type:number (SEK)
+        Initial value:20
+
+Methods:
+    plugIn()
+        Checks if the machine is plugged in
+        Return value: Boolean
+
+    connectToWater()
+        Checks if the machine has access to water
+        Return value: Boolean
+
+    pickedBlackCoffee()
+        Called when the user selects black coffee
+        Return value: Boolean
+
+    pickedCoffeWithMilk()
+        Called when the user selects coffee with milk
+        Return value: Boolean
+
+    pickedEspresso()
+        Called when the user selects espresso
+        Return value: Boolean
+
+    pressStart()
+        Starts the brewing process
+        Return value:string
+
+    fillWithCoffee()
+        Refills the machine with ground coffee
+        Return value: number
+
+    fillWithMilk()
+        Refills the machine with milk
+        Return value: number
+
+    checkIfEnoughCoffeeForACup()
+        Checks to see if there is enough coffee to brew a new cup
+        Return value: Boolean
+
+    checkIfEnoughMilkForACup
+        Checks to see if there is enough milk to brew a new cup
+        Return value: Boolean
+    
+    insertMoney()
+        Checks how much money the user has submited
+        Return value: number
+
+    addMilk()
+        Adds milk if the user wants coffee with milk
+        Return value: nothing
+
+    capsuleCheck()
+        Checks if the machine has a espresso-capsule
+        Return value: Boolean
+
+    dispenseCoffee()
+        Pours the coffee into the users cup
+        Return value: nothing
